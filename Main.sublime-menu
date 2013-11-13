@@ -1,0 +1,12 @@
+[  
+{  
+    "id": "file",  
+    "children":  
+    [  
+        { 
+          "command": "file_to_instacode",
+          "caption": "Post To InstaCod.es"
+        }  
+    ]  
+}  
+] 

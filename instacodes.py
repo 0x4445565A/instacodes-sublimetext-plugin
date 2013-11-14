@@ -8,7 +8,7 @@ class SelectionToInstacodeCommand(sublime_plugin.TextCommand):
       syntax = re.search('\/.*\/', self.view.settings().get('syntax')).group(0).replace('/', '')
       sendToBrowser(selection, syntax)
     else:
-      print('Nothing was Selected')
+      sublime.error_message('No code was selected.  InstaCod.es post failed.')
 
 class FileToInstacodeCommand(sublime_plugin.TextCommand):
   def run(self, edit):

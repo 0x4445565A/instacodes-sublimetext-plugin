@@ -10,6 +10,11 @@ User can highlight text and with a right click they can select "Post To InstaCod
 which automatically grabs code selection and code syntax and posts it to InstaCod.es
 using your default browser.
 
+User can open a file and navigate to File->Post To Instacod.es which will result in
+their whole file being used as the source code instead of just a snippet.
+This, of course, also autoselects your syntax (based on what sublime says) and uses
+your default browser to submit your code.
+
 Install Instrutions
 =============================
 

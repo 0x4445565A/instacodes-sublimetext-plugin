@@ -20,6 +20,8 @@ Install Instrutions
 
 On Linux
 
-cd ~/.config/sublime-text-3/Packages
-git clone https://github.com/tehbmar/instacodes-sublimetext-plugin.git
-chmod 777 instacodes-sublimetext-plugin
+```sh
+$ cd ~/.config/sublime-text-3/Packages
+$ git clone https://github.com/tehbmar/instacodes-sublimetext-plugin.git
+$ chmod 777 instacodes-sublimetext-plugin
+```

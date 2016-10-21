@@ -17,4 +17,4 @@ class FileToInstacodeCommand(sublime_plugin.TextCommand):
     sendToBrowser(selection, syntax)
 
 def sendToBrowser(code, syntax):
-  webbrowser.open('http://InstaCod.es/?post_code=' + code + '&post_lang=' + syntax)
+  webbrowser.open('http://instaco.de/?post_code=' + code + '&post_lang=' + syntax)
